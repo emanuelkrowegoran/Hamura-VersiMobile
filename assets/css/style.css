@@ -374,7 +374,7 @@ p {
 }
 
 .slider-slick .overlay {
-    background: rgba(14, 42, 96, 0.83);
+    /* background: rgba(14, 42, 96, 0.83); */
     position: absolute;
     width: 100%;
     height: 100%;
@@ -563,6 +563,23 @@ p {
 	portfolio
 ===================*/
 
+.portfolio .pages-title h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+}
+
+.portfolio .pages-title h5 {
+    text-align: center;
+    font-size: 13px;
+    color: #FFCC00;
+    font-weight: bold;
+    text-align: left;
+}
+
 .portfolio ul {
     padding: 0;
     margin: 0 0 18px 0;
@@ -580,30 +597,10 @@ p {
     border-radius: 1px;
 }
 
-.portfolio ul .active {
-    background: #333;
-    color: #fff;
-}
-
 .portfolio .portfolio-item img {
     width: 100%;
     height: 100%;
-}
-
-.portfolio.column1 {
-    margin-bottom: 70px;
-}
-
-.portfolio-circle.column1,
-.portfolio-circle.column2,
-.portfolio-circle.column3 {
-    text-align: center;
-}
-
-.portfolio-circle.column1 img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    border-radius: 6px;
 }
 
 .portfolio .portfolio-item .row {
@@ -613,12 +610,6 @@ p {
 
 .portfolio.column2 {
     margin-bottom: 0;
-}
-
-.portfolio-circle.column2 img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
 }
 
 .portfolio.column2 .row {
@@ -634,22 +625,10 @@ p {
     margin-bottom: 0;
 }
 
-.portfolio.column3 .row .col {
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 8px;
-}
-
-.portfolio-circle.column3 img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
 .portfolio-card h5 {
-    font-size: 18px;
+    font-size: 14px;
     margin: 10px 0 0px 0;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .portfolio-card.column3 h5 {
@@ -1343,9 +1322,109 @@ p {
     text-align: center;
 }
 
+.about-app .pages-title h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFCC00;
+}
+
+.about-app .pages-title h5 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.about-app .item .entry h3 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.about-app .item .entry p {
+    font-size: 13px;
+    color: #000;
+}
+
+.about-app .item .entry {
+    text-align: left;
+    padding: 10px 0;
+}
+
 .about-app img {
     width: 100%;
     height: 100%;
+    border-radius: 12px;
+}
+
+
+/*===================
+	Contact Us
+===================*/
+
+.contact .pages-title h3 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFCC00;
+}
+
+.contact .pages-title p {
+    text-align: left;
+    font-size: 14px;
+}
+
+.contact .item .entry {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.contact img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.contact .button {
+    background-color: #FFCC00;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+
+/*===================
+	compro
+===================*/
+
+.compro-app {
+    text-align: center;
+    background-image: url(https://hamura.co/public/media/front/bg/mitech-slider-cybersecurity-global-image.png);
+}
+
+.compro-app .item .entry h3 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.compro-app .item .entry h5 {
+    font-size: 13px;
+    color: #000;
+}
+
+.compro-app .item .entry {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.compro-app .entry img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
 }
 
 
@@ -2369,7 +2448,7 @@ textarea {
 ===================*/
 
 footer {
-    background: url(../img/footer.jpg) center no-repeat;
+    background: url(https://hamura.co/public/media/front/icon/1647315245-4.png) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
