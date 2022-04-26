@@ -1492,6 +1492,65 @@ p {
 
 
 /*===================
+	our service
+===================*/
+
+.ourservice {
+    background-image: url(https://hamura.co/public/media/front/icon/1647327835-11.png);
+}
+
+.ourservice .pages-title {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ourservice .pages-title h3 {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ourservice .entry {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    /* margin-bottom: 60px; */
+    padding: 10px;
+    margin-bottom: 20px;
+    /* -webkit-animation: glide 2s ease-in-out alternate infinite; */
+}
+
+.ourservice .entry img {
+    font-size: 40px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+.ourservice .entry h6 {
+    font-size: 12px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.ourservice .entry p {
+    font-size: 12px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+
+/*===================
 	team
 ===================*/
 
